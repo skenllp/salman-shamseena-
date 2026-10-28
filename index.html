@@ -167,7 +167,7 @@ a{color:inherit; text-decoration:none;}
   justify-content: center;
   cursor: pointer;
 }
-#opening-video{
+#opening-vedio{
   position: absolute;
   inset: 0;
   width: 100%;
@@ -1217,8 +1217,8 @@ footer#footer img { display: block; }
      OPENING SCREEN
 ========================================================== -->
 <div id="opening">
-  <video id="opening-video" playsinline preload="metadata" muted poster="assets/video-poster.jpg">
-    <source src="opening-video.mp4" type="video/mp4">
+  <video id="opening-vedio" playsinline preload="metadata" muted poster="assets/video-poster.jpg">
+    <source src="opening-vedio.mp4" type="video/mp4">
   </video>
   <!-- tap to open overlay -->
   <div id="tap-hint">
@@ -1616,7 +1616,7 @@ window.WEDDING_CONFIG = {
 
   /* ---------------- opening → main reveal ---------------- */
   const opening = document.getElementById('opening');
-  const openingVideo = document.getElementById('opening-video');
+  const openingVideo = document.getElementById('opening-vedio');
   const tapHint = document.getElementById('tap-hint');
 
   let opened = false;
